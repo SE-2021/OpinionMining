@@ -10,4 +10,4 @@ Opinion Mining for Restaurant Reviews
 이슬 [LSMG3](https://github.com/LSMG3)  
 
 ## Discussion ##
-[Google Docs](https://docs.google.com/document/d/142WGCZrUur43s8UdXE3mTenKLff7Vp6KTXB4Jer-bYM)  
+[1차 ](https://docs.google.com/document/d/142WGCZrUur43s8UdXE3mTenKLff7Vp6KTXB4Jer-bYM)  
