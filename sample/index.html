@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset = "utf-8">
+            <title>SogongJoa</title>
+            <link rel="stylesheet"href = "index.css">
+    </head>
+    <body>
+        <div class = "top">
+            <h1>SogongJoa</h1>
+        </div>
+        <div class="area">
+            <div class="listarea">
+                <div class = "category">
+                    <input type = "checkbox" name="cate" value="1" onclick = checkOne(this) > 맛
+                    <input type = "checkbox" name="cate" value="2" onclick = checkOne(this)> 서비스
+                    <input type = "checkbox" name="cate" value="3" onclick = checkOne(this)> 분위기
+                    <input type = "checkbox" name="cate" value="4" onclick = checkOne(this)> 청결도
+                    <input type = "checkbox" name="cate" value="5" onclick = checkOne(this)> 가격
+                    <button class= "search">리스트 재배열</button>
+                </div>
+                <ul class= "list">
+                </ul>
+            </div>
+            <div class="map"></div>
+        </div>
+        <script src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=37dc02dad0a957401fce638685f588f7"></script>
+        <script src="map.js"></script>
+        <script src="list.js"></script>
+        <script src="check.js"></script>
+    </body>
+</html>
