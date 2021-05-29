@@ -1,0 +1,63 @@
+body{
+    max-width: 2040px;
+}
+.top{
+    width:100%;
+    min-width: 1200px;
+    height:50px;
+    background-color: black;
+    color:white;
+    margin-bottom: 10px;
+}
+
+h1{
+    margin-left:10px
+}
+
+.area{
+    width:100%;
+    min-width: 1300px;
+    height: 90vh;
+    z-index:-2;
+}
+
+.listarea{
+    width:15%;
+    min-width: 200px;
+    max-width: 300px;
+    height:90vh;
+    float: left;
+    margin-right: 10px;
+    background-color:lavender;
+}
+
+.detail{
+    position: absolute;
+    width:300px;
+    height: 300px;
+    float:left;
+    background-color: white;
+    z-index: 2;
+}
+
+.shop{
+    width : 90%;
+    height : 40px;
+    border-top:thick solid;
+    border-bottom: thick solid;
+}
+
+.map{
+    width:83%;
+    min-width: 900px;
+    height:90vh;
+    float: left;
+    background-color: gray;
+    position: relative;
+}
+
+.mapinfo{
+    padding-left: 5px;
+    text-align: right;
+    font-style:inherit;
+}
